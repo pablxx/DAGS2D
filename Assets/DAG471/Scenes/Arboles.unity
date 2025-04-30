@@ -370,6 +370,9 @@ MonoBehaviour:
   miCuerpo: {fileID: 0}
   corriendo: 0
   direccionEntrada: {x: 0, y: 0}
+  velocidadExtra: 0
+  incrementoVelocidad: 0
+  velocidad: 2
 --- !u!50 &2051585604
 Rigidbody2D:
   serializedVersion: 4
