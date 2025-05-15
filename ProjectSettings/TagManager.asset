@@ -8,6 +8,7 @@ TagManager:
   - Enemigo
   - Tronco
   - Premio
+  - piso
   layers:
   - Default
   - TransparentFX
