@@ -33,4 +33,5 @@ public class GeneradorEscena2D : MonoBehaviour
         Destroy(objetosEnEscena[0], 8f);
         objetosEnEscena.RemoveAt(0);
     }
+
 }
