@@ -325,6 +325,11 @@ MonoBehaviour:
   - nombreSonido: herir
     clipSonido: {fileID: 8300000, guid: 0016f7f2dbe362943835b0922dcf48a8, type: 3}
     parlanteSonido: {fileID: 0}
+  - nombreSonido: sonido3
+    clipSonido: {fileID: 8300000, guid: 7f9e86f13bc705043aa4581fa484819b, type: 3}
+    parlanteSonido: {fileID: 0}
+  pitchMinimo: 0.851
+  pitchMaximo: 1.208
 --- !u!4 &554825951
 Transform:
   m_ObjectHideFlags: 0
