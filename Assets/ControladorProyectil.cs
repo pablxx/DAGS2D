@@ -31,6 +31,7 @@ public class ControladorProyectil : MonoBehaviour
         if (collision.transform.CompareTag("Enemigo"))
         {
             PoolProyectiles.Instancia.DevolverProyectil(gameObject);
+            ControladorSonidos.Instancia.ReproducirSonido("herir");
             //Destroy(gameObject);
         }
     }

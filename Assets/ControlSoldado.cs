@@ -47,6 +47,7 @@ public class ControlSoldado : MonoBehaviour
             nuevoProyectil.GetComponent<ControladorProyectil>().CambiarObjetivo(posicionEnemigo);
             nuevoProyectil.transform.position = transform.position;
             nuevoProyectil.SetActive(true);
+            ControladorSonidos.Instancia.ReproducirSonido("proyectil");
 
             tiempoTranscurrido = 0;
         }
