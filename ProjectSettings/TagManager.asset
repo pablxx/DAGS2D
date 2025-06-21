@@ -9,6 +9,7 @@ TagManager:
   - Tronco
   - Premio
   - piso
+  - proyectil
   layers:
   - Default
   - TransparentFX

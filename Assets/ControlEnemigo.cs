@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ControlEnemigo : MonoBehaviour
 {
-    [SerializeField] Transform posicionObjetivo;
+    [SerializeField] public Transform posicionObjetivo;
     [SerializeField] float velocidadMovimiento;
 
     void Start()
